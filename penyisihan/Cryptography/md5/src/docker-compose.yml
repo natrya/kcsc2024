@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  modifikasi:
+    build: .
+    ports:
+      - "12591:12591"
+    restart: unless-stopped
+    user: ctf

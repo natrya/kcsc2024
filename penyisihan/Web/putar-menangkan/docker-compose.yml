@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    restart: always
+    environment:
+      - FLAG=KCSC{jang4n_buka_w3b_semacam_ini_ya_d3k_ya}
+    volumes:
+      - "./src:/var/www/html"
+    ports:
+      - "777:80"

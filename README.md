@@ -1,2 +1,2 @@
 # kcsc2024
-kediri cybersecurity competition 2024
+Kediri Cybersecurity Competition 2024
