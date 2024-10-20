@@ -9,5 +9,5 @@ COPY run.sh .
 RUN chmod +x run.sh
 RUN chown -R ctf:ctf /home/ctf
 USER ctf
-EXPOSE 12591
+EXPOSE 1001
 CMD ["./run.sh"]

@@ -3,6 +3,6 @@ services:
   modifikasi:
     build: .
     ports:
-      - "12591:12591"
+      - "1001:9999"
     restart: unless-stopped
     user: ctf
