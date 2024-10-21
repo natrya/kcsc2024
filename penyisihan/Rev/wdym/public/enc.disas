@@ -1,0 +1,26 @@
+1           0 RESUME                   0
+
+  2           2 LOAD_FAST                0 (message)
+              4 GET_ITER
+              6 LOAD_FAST_AND_CLEAR      1 (c)
+              8 SWAP                     2
+             10 BUILD_LIST               0
+             12 SWAP                     2
+        >>   14 FOR_ITER                16 (to 50)
+             18 STORE_FAST               1 (c)
+             20 LOAD_GLOBAL              1 (NULL + ord)
+             30 LOAD_FAST                1 (c)
+             32 CALL                     1
+             40 LOAD_CONST               1 (1)
+             42 BINARY_OP                3 (<<)
+             46 LIST_APPEND              2
+             48 JUMP_BACKWARD           18 (to 14)
+        >>   50 END_FOR
+             52 SWAP                     2
+             54 STORE_FAST               1 (c)
+             56 RETURN_VALUE
+        >>   58 SWAP                     2
+             60 POP_TOP
+             62 SWAP                     2
+             64 STORE_FAST               1 (c)
+             66 RERAISE                  0
