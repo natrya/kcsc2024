@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /29-10-2024.html
