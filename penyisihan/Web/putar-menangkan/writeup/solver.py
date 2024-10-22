@@ -1,6 +1,6 @@
 import requests
 
-HOST = "http://localhost:777"
+HOST = "http://localhost:3003"
 
 s = requests.Session()
 for i in range(20):
