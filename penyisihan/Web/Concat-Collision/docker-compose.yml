@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web-concat-collision:
+    build: .
+    ports:
+      - "3007:80"
+    volumes:
+      - ./src/:/var/www/html/
+    restart: always
